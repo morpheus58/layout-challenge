@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+
+}.tag {
+     font-size: 120%;
+     color: #EEE;
+     margin: 0;
+     display: none;
+ }
+
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../img/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 18px;
+    }
+
+    .container-fluid {
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .tag {
+        display: inline;
+    }
+
+    nav {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    list-style-type: none;
+    color: #55E;
+}
+
+nav a:hover, nav a:focus {
+    color: #00E;
+}
+
+nav ul li a:hover, a:focus {
+    color: #00E;
+}
+
+.container-fluid {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:visited, a:link  {
+	text-decoration: none;
+	color: #000AAA;
+}
+
+a:hover, a:focus  {
+	color: #0000EE;
+}
+
+h1, h2, h3 {
+	font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0;
+}
+
+h2, h3 {
+	color: #505050;
+}
+
+h2 {
+	font-size: 150%;
+	margin: 0;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+main {
+	background-image: url(../img/ricepaper_v3.png);
+	opacity: 0.9;
+}
+
+header {
+	padding: 1em;
+    background: #FA5A0F;
+    border-bottom-width: 5px;
+	border-color: #EA4A00;
+	color: #FFF;
+}
+
+
+.location {
+	padding: 1em;
+}
+
+.menu {
+	padding: 1em;
+	background-color: rgba(207,205,140, 0.5);
+}
+
+.menu dt {
+	font-weight: 400;
+}
+
+.menu dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.about {
+	padding: 1em;
+}
+
+#copyright {
+	font-style: italic;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top-width: 5px;
+	border-top-color: #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
+
+
+
+
+
+
+
+/* 
+your CSS rules and font imports should go here 
+delete this comment, add the import directives for your fonts
+and add the CSS rules as described in the challenge
+*/
